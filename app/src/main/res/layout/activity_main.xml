@@ -61,8 +61,7 @@
         android:textSize="16sp"
         android:textColor="@color/white"
         android:textAlignment="center"
-        android:fontFamily="@font/poppins_regular"
-        />
+        android:fontFamily="@font/poppins_regular" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/makeAppointment_btn"
@@ -76,6 +75,5 @@
         android:paddingHorizontal="20sp"
         android:fontFamily="@font/poppins_semibold"
         android:layout_marginBottom="60sp"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

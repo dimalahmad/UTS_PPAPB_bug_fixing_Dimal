@@ -242,13 +242,9 @@
                 android:backgroundTint="@color/white"
                 android:drawableEnd="@drawable/clock"
                 android:padding="16sp"
-                android:textSize="16sp"
-                />
-
+                android:textSize="16sp" />
         </LinearLayout>
-
     </ScrollView>
-
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/back_btn"
         android:layout_width="wrap_content"
@@ -261,6 +257,5 @@
         android:paddingHorizontal="20sp"
         android:fontFamily="@font/poppins_semibold"
         android:layout_marginBottom="60sp"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

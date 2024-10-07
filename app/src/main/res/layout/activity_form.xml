@@ -11,22 +11,22 @@
     android:padding="25sp"
     tools:context=".FormActivity">
 
-        <ImageView
-            android:layout_width="200sp"
-            android:layout_height="200sp"
-            android:src="@drawable/form"
-            android:padding="20dp"
-            android:background="@drawable/circle"
-            android:backgroundTint="#C7253E"/>
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/form"
+        android:padding="20dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#C7253E"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16sp"
-            android:text="isi data diri pada kolom di bawah ini sebelum melanjutkan"
-            android:fontFamily="@font/poppins_medium"
-            android:textSize="16sp"
-            android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="isi data diri pada kolom di bawah ini sebelum melanjutkan"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -119,12 +119,6 @@
                 android:backgroundTint="#C7253E"
                 android:fontFamily="@font/poppins_semibold"
                 android:textColor="@color/white"/>
-
         </LinearLayout>
-
     </ScrollView>
-
-
-
-
 </LinearLayout>
